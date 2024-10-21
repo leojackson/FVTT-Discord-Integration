@@ -6,8 +6,8 @@ import { ActorData } from "@league-of-foundry-developers/foundry-vtt-types/src/f
 let gameUsers: StoredDocument<User>[];
 let foundryGame: Game;
 
-// Discord user-ids are either 17 or 18 digits.
-const DISCORD_MAX_ID_LENGTH = 18;
+// Discord user-ids are between 17 and 19 digits.
+const DISCORD_MAX_ID_LENGTH = 19;
 const DISCORD_MIN_ID_LENGTH = 17;
 
 // Element IDs

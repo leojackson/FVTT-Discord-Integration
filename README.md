@@ -31,7 +31,7 @@ Allows messaging from FoundryVTT to Discord through webhooks.
 ## Getting Started
 First, you'll need to create a webhook for the channel you want to send messages to. <a href="https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks">This guide</a>  goes over the basics of webhooks and how to set one up. Copy the Webhook URL and add it to the "Discord Webhook" field in the module settings.
 
-Next, for each of your players, add their corresponding Discord ID (Not UserName#1234, Right click them in Discord and select "Copy ID" at the bottom) to their User Configuration view. This will be an 18-digit number.
+Next, for each of your players, add their corresponding Discord ID (Not UserName#1234, Right click them in Discord and select "Copy ID" at the bottom) to their User Configuration view. This will be a 17 to 19-digit number.
 
 ## Usage
 There are two ways to forward messages to discord:

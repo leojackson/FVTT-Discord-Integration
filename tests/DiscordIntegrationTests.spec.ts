@@ -188,11 +188,11 @@ test.describe('discord-integration', () => {
 
         });
 
-        test('when discord-id-config input is not a 17- or 18-digit number', async ({ page }) => {
+        test('when discord-id-config input is not a 17 to 19-digit number', async ({ page }) => {
             await logOnAsUser(PLAYER_INDEX.GAMEMASTER, page);
             await testInvalidInput('not an 18-digit nu', page);
             await testInvalidInput('1234567891234567', page);
-            await testInvalidInput('1234567891234567891', page);
+            await testInvalidInput('12345678912345678912', page);
         });
 
         /**
